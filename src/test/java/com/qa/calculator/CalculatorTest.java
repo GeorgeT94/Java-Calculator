@@ -16,13 +16,13 @@ public class CalculatorTest {
 	@Test
 	public void test() {
 		
-		int actualValue = calc.add(2, 2);
+		int actualValue = calc.additions.xPlusY(2, 2);
 		Assert.assertEquals(4, actualValue);
 	}
 	
 	@Test
 	public void subtractTest() {
-		int actualValue = calc.subtract(2,2);
+		int actualValue = calc.subtractions.xMinusY(2,2);
 		Assert.assertEquals(0, actualValue);
 	}
 
