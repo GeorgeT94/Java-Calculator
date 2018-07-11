@@ -8,7 +8,8 @@ public class CalculatorTest {
 	
 	public Calculator calc;
 	
-	@Before void init() {
+	@Before 
+	public void init() {
 		calc = new Calculator();
 	}
 
