@@ -5,9 +5,11 @@ import org.junit.Before;
 import org.junit.Test;
 
 public class MultiplicationsTest {
+	public Multiplications multiplication;
+	
 	@Before
 	public void init() {
-		Multiplications multiplication = new Multiplications();
+		multiplication = new Multiplications();
 		
 	}
 	
